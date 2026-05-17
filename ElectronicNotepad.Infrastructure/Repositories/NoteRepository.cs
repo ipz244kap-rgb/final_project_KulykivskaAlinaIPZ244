@@ -4,6 +4,7 @@ using System.Linq;
 using ElectronicNotepad.Core.Interfaces;
 using ElectronicNotepad.Core.Models;
 using ElectronicNotepad.Infrastructure.Data;
+using ElectronicNotepad.Core.Data;
 
 namespace ElectronicNotepad.Infrastructure.Repositories;
 
@@ -18,12 +19,7 @@ public class NoteRepository : INoteRepository
     {
         _context = context;
         _notes = _context.LoadNotes();
-        _categories = new List<Category>
-        {
-            new Category { Id = Guid.Parse("11111111-1111-1111-1111-111111111111"), Name = "Робота" },
-            new Category { Id = Guid.Parse("22222222-2222-2222-2222-222222222222"), Name = "Особисте" },
-            new Category { Id = Guid.Parse("33333333-3333-3333-3333-333333333333"), Name = "Навчання" }
-        };
+        _categories = DefaultCategories.All.ToList();
         _tags = new List<Tag>();
     }
 
