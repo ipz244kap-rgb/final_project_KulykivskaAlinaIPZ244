@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.UI\obj\Debug\net10.0-windows\
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.UI\obj\Debug\net10.0-windows\
 ElectronicNotepad.UI
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.UI\App.xaml
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.UI\App.xaml
 5-1329136923
 
 141644808104
-208-2105921383
+2081287668710
 Themes\DarkTheme.xaml;Themes\LightTheme.xaml;Views\AddNoteWindow.xaml;Views\MainWindow.xaml;Views\NoteAnalyticsWindow.xaml;
 
 False
