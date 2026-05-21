@@ -19,4 +19,20 @@ public class Note
     
     public List<Reminder> Reminders { get; set; } = new();
     public List<Tag> Tags { get; set; } = new();
+
+    // Патерн Prototype: дозволяє об'єкту самому створювати свою копію
+        public Note Clone()
+        {
+            return new Note
+            {
+                Id = this.Id,
+                Title = this.Title,
+                Content = this.Content,
+                CategoryId = this.CategoryId,
+                Priority = this.Priority,
+                IsPinned = this.IsPinned,
+                // Робимо глибоку копію списку, щоб не було проблем з посиланнями
+                Reminders = this.Reminders != null ? new List<Reminder>(this.Reminders) : new List<Reminder>()
+            };
+        }
 }

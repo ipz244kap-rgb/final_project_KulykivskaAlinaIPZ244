@@ -48,12 +48,8 @@ public class MainViewModel : ViewModelBase
         {
             if (obj is Note note)
             {
-                var oldState = new Note
-                {
-                    Id = note.Id, Title = note.Title, Content = note.Content, 
-                    CategoryId = note.CategoryId, Priority = note.Priority, 
-                    IsPinned = note.IsPinned, Reminders = new List<Reminder>(note.Reminders)
-                };
+                // Refactored: Використання патерну Prototype замість ручного копіювання
+                var oldState = note.Clone();
                 note.IsPinned = !note.IsPinned;
                 UpdateNoteWithUndo(oldState, note);
             }
@@ -80,14 +76,12 @@ public class MainViewModel : ViewModelBase
 
     public void DuplicateNote(Note note)
     {
-        var duplicate = new Note
-        {
-            Title = note.Title + " (копія)",
-            Content = note.Content,
-            CategoryId = note.CategoryId,
-            Priority = note.Priority,
-            IsPinned = note.IsPinned
-        };
+        // Refactored: Використання патерну Prototype
+        var duplicate = note.Clone();
+        
+        // Змінюємо лише ті поля, які відрізняються у дубліката
+        duplicate.Title = note.Title + " (копія)";
+        
         AddNoteWithUndo(duplicate);
     }
 
