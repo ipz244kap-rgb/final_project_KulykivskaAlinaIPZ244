@@ -10,3 +10,15 @@ C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.Core\obj\Debug\
 C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.pdb
 C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.Core\obj\Debug\net10.0\ref\ElectronicNotepad.Core.dll
 C:\Users\alina\RiderProjects\ElectronicNotepad\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.sourcelink.json
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\bin\Debug\net10.0\ElectronicNotepad.Core.deps.json
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\bin\Debug\net10.0\ElectronicNotepad.Core.dll
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\bin\Debug\net10.0\ElectronicNotepad.Core.pdb
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.AssemblyInfoInputs.cache
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.AssemblyInfo.cs
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.csproj.CoreCompileInputs.cache
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.sourcelink.json
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.dll
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\refint\ElectronicNotepad.Core.dll
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ElectronicNotepad.Core.pdb
+C:\Users\hryts\RiderProjects\Solution1\final_project_KulykivskaAlinaIPZ244\ElectronicNotepad.Core\obj\Debug\net10.0\ref\ElectronicNotepad.Core.dll

@@ -77,4 +77,25 @@ public class AdvancedExportTests
         var txt = _service.ExportNote(note, ExportFormat.Text);
         Assert.That(txt, Does.Contain("========================================"));
     }
+
+    [Test]
+    public void ExportService_SupportsCustomExporter()
+    {
+        // Arrange
+        var mockExporter = new MockExporter();
+        var service = new ExportService(new[] { mockExporter });
+        var note = new Note { Title = "Test" };
+
+        // Act
+        var result = service.ExportNote(note, (ExportFormat)999);
+
+        // Assert
+        Assert.That(result, Is.EqualTo("Custom Export: Test"));
+    }
+
+    private class MockExporter : INoteExporter
+    {
+        public ExportFormat Format => (ExportFormat)999;
+        public string Export(Note note) => $"Custom Export: {note.Title}";
+    }
 }
